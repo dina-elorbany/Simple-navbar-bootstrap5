@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Navbar task</title>
+  </head>
+  <body class="text-center">
+    <section id="section">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid mx-4">
+          <a class="navbar-brand text-start" href="#">
+            <img src="images/logo.png" class="top-logo" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler border"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">complete</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">exhibit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+
+              <li class="nav-item book">
+                <a class="nav-link" href="#">book now</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  اللغة
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">العربية</a></li>
+                  <li><a class="dropdown-item" href="#">english</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MIDDLE-SECTION -->
+      <div
+        class="
+          container
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+          h-100
+        "
+      >
+        <div class="d-inline-flex flex-column middle-section p-3">
+          <h1 class="text-danger">alexandria, egypt</h1>
+          <small class="text-light">(hybrid edition)</small>
+          <h2 class="text-white">2,3,4 october</h2>
+          <h1 class="text-white fw-bold fs-1">2021</h1>
+        </div>
+
+        <div class="row fs-2 text-light">
+          <i
+            class="fab fa-facebook-f border rounded-circle col p-3 px-4 m-2"
+          ></i>
+          <i class="fab fa-twitter border rounded-circle col p-3 m-2"></i>
+          <i class="fab fa-instagram border rounded-circle col p-3 m-2"></i>
+          <i class="fab fa-youtube border rounded-circle col p-3 m-2"></i>
+          <i class="fab fa-linkedin-in border rounded-circle col p-3 m-2"></i>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
